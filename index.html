@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moubani Das Portfolio</title>
+  <title>Diploma ETCE Portfolio</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -325,13 +325,12 @@
 
     .hero-avatar-inner {
       width: 100%;
-      height: 100%;
-      border-radius: inherit;
-      background: #050816;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2.4rem;
+  height: 100%;
+  border-radius: inherit;
+  overflow: hidden;   /* ← ADD THIS LINE */
+  background: #050816;
+  object-fit: cover;
+  display: block;
     }
 
     .hero-badge {
@@ -860,8 +859,9 @@
             <div class="hero-badge">Available for Internship</div>
             <div class="hero-avatar">
               <div class="hero-avatar-inner">
+                <img src="WhatsApp Image 2026-01-04 at 20.07.58.jpeg" >
                 <!-- Replace with your profile image if you want -->
-                <span>👨‍💻</span>
+               
               </div>
             </div>
             <h3 style="font-size:1rem; margin-bottom:4px;">Moubani Das</h3>

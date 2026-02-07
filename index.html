@@ -784,6 +784,23 @@
         font-size: 1.8rem;
       }
     }
+    .hero-avatar {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+.hero-avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  background: #050816;
+}
+
   </style>
 </head>
 <body>
@@ -868,10 +885,7 @@
           <div class="hero-card">
             <div class="hero-badge">Available for Internship</div>
             <div class="hero-avatar">
-              <div class="hero-avatar-inner">
-                <!-- Replace with your profile image if you want -->
-                <span>👨‍💻</span>
-              </div>
+            <img src="profile.jpeg" class="hero-avatar-img">
             </div>
             <h3 style="font-size:1rem; margin-bottom:4px;">Moubani Das</h3>
             <p style="font-size:0.82rem; color:var(--text-muted); margin-bottom:10px;">
